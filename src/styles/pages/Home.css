@@ -1,0 +1,25 @@
+.game-score-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.game-score-card {
+  margin-bottom: 20px;
+}
+
+.no-game-data {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.loading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.user-average {
+  margin-bottom: 20px;
+}

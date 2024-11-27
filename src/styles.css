@@ -1,0 +1,160 @@
+/* body {
+  font-family: 'GmarketSansMedium';
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  width: 100vw;
+  display: flex;
+  justify-content: stretch;
+}
+
+#root {
+  width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.button-To-Login {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* 메인 컬러 */
+  --primary-black: #1a1a1a;
+  --secondary-black: #2d2d2d;
+  --primary-white: #ffffff;
+  --secondary-white: #f5f5f5;
+
+  /* 텍스트 컬러 */
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+
+  /* 기능성 컬러 */
+  --border-color: #333333;
+  --hover-color: #404040;
+  --accent-color: #808080;
+
+  /* 배경 컬러 */
+  --background-primary: var(--primary-black);
+  --background-secondary: var(--secondary-black);
+
+  /* 그림자 효과 */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+body {
+  font-family: 'GmarketSansMedium', sans-serif;
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 컨테이너 스타일 */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  flex: 1;
+}
+
+/* 반응형 패딩 조정 */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+}
+
+/* 기본 버튼 스타일 */
+button {
+  background-color: var(--secondary-black);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+/* 링크 스타일 */
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--text-secondary);
+}
+
+/* 컨테이너 스타일 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}

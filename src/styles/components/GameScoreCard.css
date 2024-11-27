@@ -1,0 +1,100 @@
+.game-score {
+  /* 메트로 스타일 배경 */
+  background-color: rgb(206, 212, 218);
+
+  /* 미니멀한 그림자 */
+  /* box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.1), inset 0 0 30px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.3); */
+
+  /* 선명한 테두리 */
+  border: 1px solid var(--border-color);
+
+  /* 기본 스타일 */
+  height: auto;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.game-info {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-size: 14px;
+  color: var(--primary-black);
+  font-weight: 600;
+}
+
+.location {
+  font-size: 14px;
+  /* 블랙 크롬 효과 */
+  background: linear-gradient(145deg, #1a1a1a 0%, #444444 45%, #777777 50%, #444444 55%, #1a1a1a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7), 0 2px 4px rgba(0, 0, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-size: 400%;
+  animation: shine 15s ease-in-out infinite;
+
+  display: block;
+  font-weight: 500;
+  opacity: 1;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+.scores {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  width: 60%;
+  gap: 10px;
+}
+
+.score {
+  background: linear-gradient(145deg, rgba(248, 249, 250) 0%, rgba(233, 236, 239) 100%);
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.6), 0 2px 4px rgba(0, 0, 0, 0.08);
+  color: var(--primary-black);
+  font-size: 14px;
+  font-weight: 600;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-over-200 {
+  color: #d63031;
+  font-weight: 700;
+}
+
+.total-info {
+  text-align: right;
+}
+
+.total-score {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-black);
+}
+
+.average {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--primary-black);
+}
+
+.average-over-200 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #d63031;
+}
