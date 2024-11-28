@@ -1,282 +1,152 @@
-/* .user-average {
-  background: linear-gradient(135deg, #007bff, #00aaff);
-  color: white;
-  padding: 20px;
-  border-radius: 8px;
-  position: relative;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.profile-icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.username {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.average-info {
-  text-align: center;
-}
-
-.average-title {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.date-range {
-  font-size: 14px;
-  margin-bottom: 20px;
-  display: block;
-}
-
-.average-circle {
-  /* background-color: #fff;
-  color: #007bff;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto; 
-  position: relative;
-  width: 180px; 
-  height: 180px;
-  margin: 0 auto; 
-}
-
-.gauge {
-  transition: stroke-dashoffset 1s ease;
-}
-
-.average-score {
-  font-size: 24px;
-  font-weight: bold;
-  position: absolute;
-  top: 50%; 
-  transform: translate(-50%, -50%);
-} */
-
-/* .games-count {
-  font-size: 14px;
-  margin-top: 5px;
-}
-
-.achievements {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.best-score {
-  text-align: center;
-}
-
-.best-label {
-  font-size: 22px;
-  font-weight: 500;
-}
-
-.best-score-badge {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: gold;
-  color: #333;
-  font-size: 20px;
-  font-weight: 500;
-  width: auto;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  padding: 10px;
-  margin-top: 5px;
-}
-
-.stats {
-  font-weight: 500;
-  font-size: 20px;
-  text-align: right;
-}
-
-.footer {
-  font-size: 12px;
-  margin-top: 20px;
-  text-align: center;
-} */
-
-/* .user-average {
-  background: linear-gradient(135deg, var(--secondary-black), var(--primary-black));
-  color: white;
-  padding: 15px;
-  border-radius: 8px;
-  position: relative;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
-
 .user-average {
-  background: linear-gradient(135deg, var(--secondary-black) 0%, var(--primary-black) 50%, var(--primary-black) 100%);
+    background: linear-gradient(135deg, var(--secondary-black) 0%, var(--primary-black) 50%, var(--primary-black) 100%);
 
-  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.1), inset 0 0 30px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.1), inset 0 0 30px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.3);
 
-  border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 
-  color: white;
-  padding: 15px;
-  border-radius: 8px;
-  position: relative;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  height: 40px;
+    display: flex;
+    align-items: center;
+    height: 40px;
 }
 
 .profile-icon {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .username {
-  font-size: 14px;
-  font-weight: bold;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .average-info {
-  text-align: center;
-  height: 160px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    text-align: center;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .average-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .date-range {
-  font-size: 11px;
-  margin-bottom: 5px;
-  display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+    display: block;
 }
 
 .average-circle {
-  position: relative;
-  width: 120px;
-  height: 120px;
-  margin: 0 auto;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
 }
 
 .circle-background {
-  stroke: rgba(255, 255, 255, 0.1);
+    stroke: rgba(255, 255, 255, 0.1);
 }
 
 .gauge {
-  /* stroke: linear-gradient(145deg, rgba(255, 215, 0, 0.8), rgba(255, 165, 0, 0.9)); */
-  /* 또는 아래 옵션들 중 선택 */
+    /* stroke: linear-gradient(145deg, rgba(255, 215, 0, 0.8), rgba(255, 165, 0, 0.9)); */
+    /* 또는 아래 옵션들 중 선택 */
 
-  /* 옵션 1: 골드 메탈릭 */
-  stroke: #ffd700;
-  filter: drop-shadow(0 0 2px rgba(255, 215, 0, 0.5));
+    /* 옵션 1: 골드 메탈릭 */
+    stroke: #ffd700;
+    filter: drop-shadow(0 0 2px rgba(255, 215, 0, 0.5));
 
-  /* 옵션 2: 실버 메탈릭 */
-  /* stroke: #c0c0c0;
+    /* 옵션 2: 실버 메탈릭 */
+    /* stroke: #c0c0c0;
     filter: drop-shadow(0 0 2px rgba(192, 192, 192, 0.5)); */
 
-  /* 옵션 3: 네온 골드 (현재 뱃지와 가장 어울림) */
-  /* stroke: rgba(255, 215, 0, 0.8);
+    /* 옵션 3: 네온 골드 (현재 뱃지와 가장 어울림) */
+    /* stroke: rgba(255, 215, 0, 0.8);
     filter: drop-shadow(0 0 3px rgba(255, 215, 0, 0.3)); */
-  transition: stroke-dashoffset 1s ease;
+    transition: stroke-dashoffset 1s ease;
 }
 
 .average-score {
-  font-size: 18px;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .games-count {
-  font-size: 11px;
-  margin-top: 2px;
+    font-size: 11px;
+    margin-top: 2px;
 }
 
 .achievements {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
 }
 
 .best-score {
-  text-align: center;
+    text-align: center;
 }
 
 .best-label {
-  font-size: 16px;
-  font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .best-score-badge {
-  /* 기존 gold 대신 그라데이션 적용 */
-  /* background: linear-gradient(145deg, #ffd700 0%, #ffa500 100%); */
+    /* 기존 gold 대신 그라데이션 적용 */
+    /* background: linear-gradient(145deg, #ffd700 0%, #ffa500 100%); */
 
-  /* 옵션 2: 네온 느낌 */
-  background: linear-gradient(145deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 165, 0, 0.9) 100%);
-  box-shadow: 
-    /* 내부 그림자로 전체적인 음각 효과 */ inset 0 2px 4px rgba(0, 0, 0, 0.2),
-    /* 외부 빛나는 효과 유지 */ 0 0 10px rgba(255, 215, 0, 0.3);
+    /* 옵션 2: 네온 느낌 */
+    background: linear-gradient(145deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 165, 0, 0.9) 100%);
+    box-shadow: 
+    /* 내부 그림자로 전체적인 음각 효과 */ inset 0 2px 4px rgba(0, 0, 0, 0.2), /* 외부 빛나는 효과 유지 */ 0 0 10px rgba(255, 215, 0, 0.3);
 
-  color: var(--secondary-black);
-  border: 1px solid rgba(255, 215, 0, 0.4);
-  font-size: 14px;
-  font-weight: 500;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  margin-top: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    color: var(--secondary-black);
+    border: 1px solid rgba(255, 215, 0, 0.4);
+    font-size: 14px;
+    font-weight: 500;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .stats {
-  font-weight: 500;
-  font-size: 14px;
-  text-align: right;
-  display: flex;
-  align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+    display: flex;
+    align-items: center;
 }
 
 .footer {
-  font-size: 11px;
-  text-align: center;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    font-size: 11px;
+    text-align: center;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

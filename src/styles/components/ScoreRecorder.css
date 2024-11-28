@@ -1,86 +1,86 @@
 .game-record {
-  padding: 20px;
-  background-color: #f9f9f9;
-  margin: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .bowling-center-name {
-  flex: 1;
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 14px;
-  margin-right: 20px;
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 20px;
 }
 
 h1 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-  color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
 }
 
 .react-datepicker-wrapper {
-  display: flex !important;
-  width: 100% !important;
-  margin-bottom: 20px;
+    display: flex !important;
+    width: 100% !important;
+    margin-bottom: 20px;
 }
 .react-datepicker__input-container {
-  display: flex !important;
+    display: flex !important;
 
-  font-size: 14px;
-  color: #333;
-  margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
 }
 
 .react-datepicker__input-container input {
-  width: 100% !important;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 14px;
+    width: 100% !important;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 .memo-wrapper {
-  display: flex;
-  height: 60px;
-  background-color: #ffffff;
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+    display: flex;
+    height: 60px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .memo {
-  width: 100%;
+    width: 100%;
 }
 
 .memo textarea {
-  width: 100%;
-  height: 100%;
-  border: none;
-  font-size: 14px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 14px;
 
-  resize: none;
+    resize: none;
 }
 
 .memo textarea:focus {
-  outline: none;
+    outline: none;
 }
 
 .record-toggle {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 /* .toggle {
@@ -101,161 +101,161 @@ h1 {
 } */
 
 .options {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .options label {
-  font-size: 14px;
-  display: flex;
-  align-items: center;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
 }
 
 .options input {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 .score-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 10px;
-  margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .score-input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 14px;
-  text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
 }
 
 .save-button {
-  width: 120px;
-  padding: 10px;
-  background-color: #ccc;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  font-size: 14px;
-  cursor: pointer;
+    width: 120px;
+    padding: 10px;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 .game-record {
-  background: linear-gradient(135deg, var(--secondary-black) 0%, var(--primary-black) 50%, var(--primary-black) 100%);
-  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.1), inset 0 0 30px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: white;
-  padding: 15px;
-  border-radius: 8px;
-  margin: auto;
+    background: linear-gradient(135deg, var(--secondary-black) 0%, var(--primary-black) 50%, var(--primary-black) 100%);
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.1), inset 0 0 30px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: auto;
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  height: 40px;
-  margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 20px;
 }
 
 .bowling-center-name {
-  flex: 1;
-  width: 100%;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
-  font-size: 14px;
-  color: white;
-  margin-right: 20px;
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    margin-right: 20px;
 }
 
 .react-datepicker-wrapper {
-  display: flex !important;
-  width: 100% !important;
-  margin-bottom: 20px;
+    display: flex !important;
+    width: 100% !important;
+    margin-bottom: 20px;
 }
 
 .react-datepicker__input-container input {
-  width: 100% !important;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
-  font-size: 14px;
-  color: white;
+    width: 100% !important;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
 }
 
 .memo-wrapper {
-  display: flex;
-  height: 60px;
-  background: rgba(255, 255, 255, 0.05);
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
+    display: flex;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.05);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
 }
 
 .memo textarea {
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  border: none;
-  font-size: 14px;
-  color: white;
-  resize: none;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    color: white;
+    resize: none;
 }
 
 .memo textarea:focus {
-  outline: none;
+    outline: none;
 }
 
 .options {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .options label {
-  font-size: 14px;
-  color: white;
-  display: flex;
-  align-items: center;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
 .score-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 10px;
-  margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .score-input {
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
-  font-size: 14px;
-  color: white;
-  text-align: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
 }
 
 .save-button {
-  width: 120px;
-  padding: 10px;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
-  color: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 10px rgba(255, 255, 255, 0.05);
+    width: 120px;
+    padding: 10px;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 10px rgba(255, 255, 255, 0.05);
 }
 
 .save-button:hover {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.1) 100%);
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 255, 255, 0.1);
-  color: rgba(255, 255, 255, 1);
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 1);
 }
